@@ -1,0 +1,50 @@
+/*HEADER*/
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#header-menu {
+    display: flex;
+    color: whitesmoke;
+}
+
+#left-h-menu, #right-h-menu {
+    flex-direction: row;
+}
+
+#header-menu li {
+    padding: 1rem;
+}
+
+#header-menu a {
+    text-decoration: none;
+}
+
+/*MAIN*/
+#bio {
+    display: flex;
+    justify-content: end;
+}
+
+#profile-pic {
+    align-items: center;
+    margin-left: 2rem;
+    height: 15rem;
+    border-radius: 25%;
+}
+
+/*FOOTER*/
+#footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-menu ul {
+    flex-direction: row;
+}
+
+#footer-menu img {
+    height: 2rem;
+}
